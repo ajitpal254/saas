@@ -107,9 +107,9 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    listen (3.0.8)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
+    listen (3.9.0)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
     loofah (2.24.1)
       crass (~> 1.0.2)
@@ -272,7 +272,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   jbuilder
-  listen (~> 3.0.5)
+  listen (~> 3.9.0)
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 8.0.2)

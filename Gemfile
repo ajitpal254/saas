@@ -20,7 +20,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 group :development do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'web-console', '>= 4.1.0'
-  gem 'listen', '~> 3.0.5'
+  gem 'listen', '~> 3.9.0'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
